@@ -2,3 +2,7 @@ venv
 
 # playwright
 .playwright-mcp/
+
+# build
+.cache/
+site/
