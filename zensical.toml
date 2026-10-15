@@ -15,16 +15,23 @@ icon.logo = "material/github"
 icon.repo = "fontawesome/brands/git-alt"
 features = [
   "navigation.instant",
+  "navigation.instant.prefetch",
   "navigation.instant.progress",
   "navigation.sections",
   "navigation.tracking",
   "navigation.indexes",
   "navigation.top",
+  "navigation.footer",
+  "navigation.path",
   "search.suggest",
   "search.highlight",
   "search.share",
   "content.action.edit",
+  "content.action.view",
   "content.code.copy",
+  "content.code.select",
+  "content.footnote.tooltips",
+  "content.tabs.link",
 ]
 
 [[project.theme.palette]]
