@@ -3,10 +3,10 @@ UV ?= uv
 .PHONY: build server sync lock update export
 
 build:
-	$(UV) run mkdocs build
+	$(UV) run zensical build
 
 server:
-	$(UV) run mkdocs serve
+	$(UV) run zensical serve
 
 # Install project dependencies into .venv.
 sync:

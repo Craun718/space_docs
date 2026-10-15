@@ -1,0 +1,97 @@
+[project]
+site_name = "Space Docs"
+site_author = "Natsukawa"
+site_description = "Private knowledge base"
+site_url = "https://space-docs.natsuu.top"
+copyright = "Copyright &copy; 2023 Natsukawa, all rights reserved."
+repo_url = "https://github.com/Craun718/space_docs"
+repo_name = "Craun718/space_docs"
+
+[project.theme]
+variant = "classic"
+language = "zh"
+font.text = "Noto Sans SC"
+icon.logo = "material/github"
+icon.repo = "fontawesome/brands/git-alt"
+features = [
+  "navigation.instant",
+  "navigation.instant.progress",
+  "navigation.sections",
+  "navigation.tracking",
+  "navigation.indexes",
+  "navigation.top",
+  "search.suggest",
+  "search.highlight",
+  "search.share",
+  "content.action.edit",
+  "content.code.copy",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle = { icon = "material/brightness-7", name = "Switch to dark mode" }
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle = { icon = "material/brightness-4", name = "Switch to light mode" }
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+tables = {}
+md_in_html = {}
+pymdownx.details = {}
+pymdownx.inlinehilite = {}
+pymdownx.snippets = {}
+pymdownx.superfences = {}
+
+[project.markdown_extensions.toc]
+permalink = "#"
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+[project.plugins.search]
+
+[project.plugins.social]
+cards = false
+
+[project.plugins.tags]
+
+[project.plugins.offline]
+
+[project.extra.analytics.feedback]
+title = "Was this page helpful?"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/thumb-up-outline"
+name = "This page was helpful"
+data = 1
+note = "Thanks for your feedback!"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/thumb-down-outline"
+name = "This page could be improved"
+data = 0
+note = '''Thanks for your feedback! Help us improve this page by
+using our <a href="..." target="_blank" rel="noopener">feedback form</a>.'''
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/Craun718"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/envelope"
+link = "mailto:natsukawa247@outlook.com"
