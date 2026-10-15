@@ -5,8 +5,8 @@ site_url: https://space-docs.natsuu.top
 
 copyright: Copyright &copy; 2023 Natsukawa, all rights reserved.
 
-repo_url: https://github.com/NtskwK/space_docs
-repo_name: NtskwK/space_docs
+repo_url: https://github.com/Craun718/space_docs
+repo_name: Craun718/space_docs
 
 theme:
   name: material
@@ -102,6 +102,6 @@ extra:
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/NtskwK
+      link: https://github.com/Craun718
     - icon: fontawesome/solid/envelope
       link: mailto:natsukawa247@outlook.com
